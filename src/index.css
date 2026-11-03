@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-light: #e6f0ff;
+  --color-dark: #0a0f1f;
+  --color-blue: #2563eb;
+  --color-blue-dark: #1e40af;
+  --color-blue-light: #38bdf8;
+
+  --background-image-hero: linear-gradient(to top, rgb(0 0 0 / 80%), rgb(0 0 0 / 40%)), url("/images/logoln.png");
+  --background-image-solucao: linear-gradient(to top, rgb(0 0 0 / 80%), rgb(0 0 0 / 40%)), url("/images/imagem_fundo.png");
+  --background-image-publico: linear-gradient(to top, rgb(0 0 0 / 80%), rgb(0 0 0 / 40%)), url("/images/imagen-estudante-full-time.png");
+
+  --animate-slide: slide 20s linear infinite;
+  @keyframes slide {
+    to { transform: translateX(-100%); }
+  }
+}
