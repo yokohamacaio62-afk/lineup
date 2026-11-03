@@ -42,3 +42,4 @@ Utilizamos IA generativa (Claude, da Anthropic) como apoio na migração da Land
 ## Deploy na Vercel
 
 https://SEU-PROJETO.vercel.app
+link vercel https://lineup-five-ecru.vercel.app
